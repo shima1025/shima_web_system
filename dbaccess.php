@@ -37,9 +37,9 @@ function escape1($str)
 <title>test page for database access</title>
 </head>
 <body >
-Last Access Time<br><br>
-<?php foreach ($rec as $a):?>
-        <?=escape1($a)?><br>
-<?php endforeach; ?>
+#Last Access Time<br><br>
+#<?php foreach ($rec as $a):?>
+#        <?=escape1($a)?><br>
+#<?php endforeach; ?>
 </body>
 </html>
